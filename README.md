@@ -78,8 +78,8 @@ Also we have noticed that the average size of the Application available on plays
 Lastly, all of the calculations and graphs  in this project have accuracy in the range of 75% to 80%.
 
 ## References
-1.GeekforGeeks
-2.Kaggle
-3.Analytics Vidya
+1. GeekforGeeks
+2. Kaggle
+3. Analytics Vidya
 
 
