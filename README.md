@@ -1,17 +1,17 @@
-# SaugataDeb-Play_store_App_Review_Analysis
+## SaugataDeb-Play_store_App_Review_Analysis
 
-Abstract:
+## Abstract:
 Android is an operating system which has
 Currently 2.8 billion users are active around the globe. In this project we will be doing analysis on Play Store App Review Data. With the development of android initially it was an operation system to be used in camera but when google acquired android in 2005. They started giving android as an operating system to smartphones in 2007 which was later going to dominate 1/3rd of the world's total population as what we are experiencing today. Android is basically an open source OS giving the developers an opportunity to develop applications in this data ridden world because of this it has become necessary for the data analytics professionals to analyze those data so to help companies realize how they can grow their business effectively in every aspect and learn the needs of the users for the betterment of their products and also help App developers how they can improve their products in different categories.
 
-Problem Statement:
+##  Problem Statement:
 Data has been provided by ABC Advertising Pvt. Ltd.  to analyze the data for different App in different categories and help them satisfy their customers needs who possibly  
 resides around the world. From these analyses they can understand the needs of their customers in different aspects of product development and it will help solve the problems with the market superiors. 
 The main objective of this project is to deal with the data provided by the company and to analyze the data in every aspect possible so to help them match their idea and help them to convert new and retain old customers and make reasonable growth.
 We have been provided with two datasets:
 Play Store Data.csv
 User Reviews.csv
-Play Store Data.csv column elements:-
+## Play Store Data.csv column elements:-
 App - Name of the Application
 Category - Category of the Application
 Rating - Rating given to the Application
@@ -32,7 +32,7 @@ Sentiment:- Sentiment of trust from customer
 Sentiment_Polarity:- It determines sentimental expression of the customer's opinion
 Sentiment_Subjectivity:- Sentimental Subjectivity in terms is a personal opinion and it falls in range [0,1].
 
-Problem Questions:
+## Problem Questions:
 1.Top Categories in Playstore?
 2.Top Genres in the Playstore?
 3.Top Content Rating per installation?
@@ -52,7 +52,7 @@ Problem Questions:
 17.Sentiment Analysis on the basis of Genres
  
  
-Introduction:
+## Introduction:
 Android as we know is a huge marketplace where every app developer has the opportunity. When Google acquired Android in 2005. Google incorporated the market with android in 2007 which have let developers develop android applications and in this way with very less association with their own developer and more on  open source developers it opened the markets of opportunities for both the makers and the user as well what we can easily speculate today. This has also helped in the development of many new businesses and also several new professions which we can experience now. 
 There are basically three kinds of Applications in the Android Play Store. ‘Background Services and Intent Receivers Applications’,’Foreground Background Applications’ and ‘Intermittent Applications’.
 
@@ -60,7 +60,7 @@ The type of Applications which we will use to analyze in Play Store App Review A
 
 In this project of Play Store App Review Analysis we will be analyzing each and every prospect of the data available with us and on the basis of this data we will try to solve every problem associated with the real world problem which lets them achieve customer prosperity.
 
-Conclusion:
+## Conclusion:
 So here we come at the end of our project which is play store App Review Analysis.What we have done just take a short recap. First we have done the removal of null value from rows and columns and the same goes with the removal of duplicates from the datasets. Then we did the formatting for each of the required columns in each dataset. 
 After analyzing the data we conclude that App with the category Family and the genre tools are in large numbers. Also we can conclude that the number App Rating is directly proportional with the recent update. From this we can see that with all the major updates apps will get more ratings.
 We can also conclude that most of the apps which are used by the users have a content rating of ‘Everyone’.
@@ -77,7 +77,7 @@ Also the average sentiment Polarity is 0.16 and average sentiment_subjectivity i
 Also we have noticed that the average size of the Application available on playstore is 21933.38 KB.
 Lastly, all of the calculations and graphs  in this project have accuracy in the range of 75% to 80%.
 
-References
+## References
 1.GeekforGeeks
 2.Kaggle
 3.Analytics Vidya
