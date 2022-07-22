@@ -81,26 +81,9 @@ In this project of Play Store App Review Analysis we will be analyzing each and 
 12. Current_Ver - It tells us about the current version of the application.
 13. Android_Ver - It tells us about the android version which can support the application on its platform.
 
-## Data Cleaning - Univariate & Bivariate Analysis
-
-The number of null values in User-review dataframe are:
-
-* Translated_Review has 26868 null values which contributes 41.79% of the data.
-* Sentiment has 26863 null values which contributes 41.78% of the data.
-* Sentiment_Polarity has 26863 null values which contributes 41.78% of the data.
-* Sentiment_Subjectivity has 26863 null values which contributes 41.78% of the data.
-Note1: 49% of NaN found in 4 features of user-review dataset hence we have removed all the NaN values from the user_review data frame.
-
-The number of null values in play_store dataframe are:
-
-* Rating has 1474 null values which contributes 13.60% of the data.
-* Type has 1 null value which contributes 0.01% of the data.
-* Content_Rating has 1 null value which contributes 0.01% of the data.
-* Current_Ver has 8 null values which contributes 0.07% of the data.
-* Android_Ver has 3 null values which contributes 0.03% of the data.
 
 
-## Conclusion:
+## Conclusion and Insights:
 
 So here we come at the end of our project which is play store App Review Analysis.What we have done just take a short recap. First we have done the removal of null value from rows and columns and the same goes with the removal of duplicates from the datasets. Then we did the formatting for each of the required columns in each dataset. 
 After analyzing the data we conclude that App with the category Family and the genre tools are in large numbers. Also we can conclude that the number App Rating is directly proportional with the recent update. From this we can see that with all the major updates apps will get more ratings.
