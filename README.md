@@ -13,60 +13,46 @@ Play Store Data.csv
 User Reviews.csv
 ## Play Store Data.csv column elements:-
 
-App - Name of the Application
+1. App - Name of the Application
+2. Category - Category of the Application
+3. Rating - Rating given to the Application
+4. Reviews - No of reviews given to the Application
+5. Size - Size of the Application
+6. Installs - No of downloads of the Application
+7. Type - Free or Paid
+8. Price - Price of the Application if it is paid
+9. Content Rating-It is Age appropriate or Not
+10. Genres - Type of Genre the Application belongs to
+11.Last Updated - When the last time the Application is Updated
+12. Current Ver - Current version of the Application
+13. Android Version- Minimum Android version required to run the Application
 
-Category - Category of the Application
+##User Review.csv column elements:
 
-Rating - Rating given to the Application
-
-Reviews - No of reviews given to the Application
-
-Size - Size of the Application
-
-Installs - No of downloads of the Application
-
-Type - Free or Paid
-
-Price - Price of the Application if it is paid
-
-Content Rating-It is Age appropriate or Not
-
-Genres - Type of Genre the Application belongs to
-
-Last Updated - When the last time the Application is Updated
-
-Current Ver - Current version of the Application
-
-Android Version- Minimum Android version required to run the Application
-
-User Review.csv column elements:
-
-App:- Type of Applications
-
-Translated_Review:- Reviews being given by consumer
-
-Sentiment:- Sentiment of trust from customer
-Sentiment_Polarity:- It determines sentimental expression of the customer's opinion
-Sentiment_Subjectivity:- Sentimental Subjectivity in terms is a personal opinion and it falls in range [0,1].
+1. App:- Type of Applications
+2. Translated_Review:- Reviews being given by consumer
+3. Sentiment:- Sentiment of trust from customer
+4. Sentiment_Polarity:- It determines sentimental expression of the customer's opinion
+5. Sentiment_Subjectivity:- Sentimental Subjectivity in terms is a personal opinion and it falls in range [0,1].
 
 ## Problem Questions:
-1.Top Categories in Playstore?
-2.Top Genres in the Playstore?
-3.Top Content Rating per installation?
-4.What is the percentage of free and paid Apps in the Play Store?
-5.What is the effect of the last update on rating?
-6.How does the last update have an effect on the trend of rating?
-7.Effect on rating when the application was of type free and paid?
-8.Relationship between reviews and rating?
-9.relationship between Rating and Average Reviews
-10.Average Rating of each App category
-11.Average Rating for each genre
-12.What is the distribution of sentiment subjectivity?
-13.How sentiment polarity varies with Free and Paid Apps?
-14.Different percentages of review sentiments based on two Datasets provided?
-15.Different percentages of sentiment analysis on top 5 Reviewed App Categories?
-16.Sentiment Analysis on each App Category
-17.Sentiment Analysis on the basis of Genres
+1. Top Categories in Playstore?
+2. Top Genres in the Playstore?
+3. Top Content Rating per installation?
+4. What is the percentage of free and paid Apps in the Play Store?
+5. What is the effect of the last update on rating?
+6. How does the last update have an effect on the trend of rating?
+7. Effect on rating when the application was of type free and paid?
+8. Relationship between reviews and rating?
+9. relationship between Rating and Average Reviews
+10. Average Rating of each App category
+11. Average Rating for each genre
+12. What is the distribution of sentiment subjectivity?
+13. How sentiment polarity varies with Free and Paid Apps?
+14. Different percentages of review sentiments based on two Datasets provided?
+15. Different percentages of sentiment analysis on top 5 Reviewed App Categories?
+16. Sentiment Analysis on each App Category
+17. Sentiment Analysis on the basis of Genres
  
  
 ## Introduction:
@@ -78,6 +64,7 @@ The type of Applications which we will use to analyze in Play Store App Review A
 In this project of Play Store App Review Analysis we will be analyzing each and every prospect of the data available with us and on the basis of this data we will try to solve every problem associated with the real world problem which lets them achieve customer prosperity.
 
 ## Conclusion:
+
 So here we come at the end of our project which is play store App Review Analysis.What we have done just take a short recap. First we have done the removal of null value from rows and columns and the same goes with the removal of duplicates from the datasets. Then we did the formatting for each of the required columns in each dataset. 
 After analyzing the data we conclude that App with the category Family and the genre tools are in large numbers. Also we can conclude that the number App Rating is directly proportional with the recent update. From this we can see that with all the major updates apps will get more ratings.
 We can also conclude that most of the apps which are used by the users have a content rating of ‘Everyone’.
