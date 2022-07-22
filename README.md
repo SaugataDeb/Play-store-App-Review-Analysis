@@ -1,4 +1,4 @@
-## SaugataDeb-Play_store_App_Review_Analysis
+## Play Store App Review Analysis
 
 ## Abstract:
 Android is an operating system which has
