@@ -63,7 +63,7 @@ The type of Applications which we will use to analyze in Play Store App Review A
 
 In this project of Play Store App Review Analysis we will be analyzing each and every prospect of the data available with us and on the basis of this data we will try to solve every problem associated with the real world problem which lets them achieve customer prosperity.
 
-## The following are the various steps involved in the EDA process:
+## The following are the steps involved in the EDA process:
 
 1. Problem Statement - We shall brainstorm and understand the given data set. We shall study the attributes present in it and try to do a philosophical analysis about their meaning and importance for this problem.
 2. Hypothesis - Upon studying the attributes present in the data base, we shall develop some basic hypothesis on which we can work and play with the data to look for the varied results which we can get out of it.
@@ -73,7 +73,7 @@ In this project of Play Store App Review Analysis we will be analyzing each and 
 6. Data Cleaning - We shall clean the dataset and handle the missing data, outliers and categorical variables.
 7. Testing Hypothesis - We shall check if our data meets the assumptions required by most of the multivariate techniques.
 
-## DATA EXPLORATION, CLEANING AND INSIGHTS
+## DATA CLEANING and some insights
 
 1. App - It tells us about the name of the application.
 2. Category - It tells us about the category to which an application belongs.
@@ -107,25 +107,6 @@ The number of null values in play_store dataframe are:
 * Current_Ver has 8 null values which contributes 0.07% of the data.
 * Android_Ver has 3 null values which contributes 0.03% of the data.
 
-## Our Hypotthesis
-
-1. Hypothesis_1:
-
-We cannot simply drop these NaN values of Rating Column. So in order to get sentiment or translated review info for the apps from the user_review DF so that we can fill these NaN values based a logic based derivation. Thus, we need to merge these two DF's so that we get Common Apps between between them and can compare.
-
-2. Hypothesis_1 conclusion:
-
-We don't have infomation of sentiment of the Apps to fill the NaN values for the remaining apps from the merged DF.
-
-3. Hypothesis_2:
-
-Let us check whether do we have rating of Apps within the PlayStore DF.
-
-4. Hypothesis_2 conclusion:
-
-we found that even with this hypothesis we dont get information needed to fill NaN of the Rating.
-
-Note2: Since both Hypothesis did not get us the information about Filling NaN values of Rating. We shall proceed with dropping these from the play_store DF.
 
 ## Conclusion:
 
@@ -144,16 +125,6 @@ Also we can see that after merging both of the dataset the maximum Average Ratin
 Also the average sentiment Polarity is 0.16 and average sentiment_subjectivity is 0.49
 Also we have noticed that the average size of the Application available on playstore is 21933.38 KB.
 Lastly, all of the calculations and graphs  in this project have accuracy in the range of 75% to 80%.
-
-Some other Insights:
-
-* In this project of analyzing play store applications, we have worked on several parameters which would help AlmaBetter to do well in launching their apps on the play store. 
-* In the initial phase, we focused more on the problem statements and data cleaning, in order to ensure that we give them the best results out of our analysis.  
-* Developing apps related to the least categories as they are not explored much. Like events and beauty. 
-* Most of the apps are Free, so focusing on free app is more important. 
-* Focusing more on content available for Everyone will increase the chances of getting the highest installs. 
-* They need to focus on updating their apps regularly, so that it will attract more users. 
-* They need to keep in mind that the sentiments of the user keep varying as they keep using the app, so they should focus more on users needs and features.
 
 ## References
 1. GeekforGeeks
