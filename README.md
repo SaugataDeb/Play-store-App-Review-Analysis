@@ -11,6 +11,7 @@ The main objective of this project is to deal with the data provided by the comp
 We have been provided with two datasets:
 Play Store Data.csv
 User Reviews.csv
+
 ## Play Store Data.csv column elements:-
 
 1. App - Name of the Application
@@ -63,17 +64,8 @@ The type of Applications which we will use to analyze in Play Store App Review A
 
 In this project of Play Store App Review Analysis we will be analyzing each and every prospect of the data available with us and on the basis of this data we will try to solve every problem associated with the real world problem which lets them achieve customer prosperity.
 
-## The following are the steps involved in the EDA process:
 
-1. Problem Statement - We shall brainstorm and understand the given data set. We shall study the attributes present in it and try to do a philosophical analysis about their meaning and importance for this problem.
-2. Hypothesis - Upon studying the attributes present in the data base, we shall develop some basic hypothesis on which we can work and play with the data to look for the varied results which we can get out of it.
-3. Univariate Analysis - It is the simplest form of analyzing the data. In this we would initially pick up a single attribute and study it in and out. It doesn't deal with any sort of co-relation and it's major purpose is to describe. It takes data, summarizes that data and finds patterns in the data.
-4. Bivariate Analysis - This analysis is related to cause and the relationship between the two attributes. We will try to understand the dependency of attributes on each other.
-5. Multivariate Analysis - This is done when more than two variables have to be analyzed simultaneously.
-6. Data Cleaning - We shall clean the dataset and handle the missing data, outliers and categorical variables.
-7. Testing Hypothesis - We shall check if our data meets the assumptions required by most of the multivariate techniques.
-
-## DATA CLEANING and some insights
+## Data Cleaning and some insights
 
 1. App - It tells us about the name of the application.
 2. Category - It tells us about the category to which an application belongs.
