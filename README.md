@@ -12,22 +12,39 @@ We have been provided with two datasets:
 Play Store Data.csv
 User Reviews.csv
 ## Play Store Data.csv column elements:-
+
 App - Name of the Application
+
 Category - Category of the Application
+
 Rating - Rating given to the Application
+
 Reviews - No of reviews given to the Application
+
 Size - Size of the Application
+
 Installs - No of downloads of the Application
+
 Type - Free or Paid
+
 Price - Price of the Application if it is paid
+
 Content Rating-It is Age appropriate or Not
+
 Genres - Type of Genre the Application belongs to
+
 Last Updated - When the last time the Application is Updated
+
 Current Ver - Current version of the Application
+
 Android Version- Minimum Android version required to run the Application
+
 User Review.csv column elements:
+
 App:- Type of Applications
+
 Translated_Review:- Reviews being given by consumer
+
 Sentiment:- Sentiment of trust from customer
 Sentiment_Polarity:- It determines sentimental expression of the customer's opinion
 Sentiment_Subjectivity:- Sentimental Subjectivity in terms is a personal opinion and it falls in range [0,1].
